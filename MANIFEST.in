@@ -1,0 +1,11 @@
+include README.md
+include LICENSE
+include requirements.txt
+include biokg_builder/config.json.example
+recursive-include biokg_builder/templates *.html
+recursive-include biokg_builder/static *.css *.js
+recursive-include tests *.py
+prune __pycache__
+prune *.pyc
+global-exclude *.log
+global-exclude *.swp
