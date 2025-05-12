@@ -14,12 +14,6 @@ BioKG-Builder is an AI-driven biomedical literature knowledge graph generator th
 ## Installation
 
 ```bash
-pip install biokg-builder
-```
-
-Or install from source:
-
-```bash
 git clone https://github.com/Zaoqu-Liu/biokg-builder.git
 cd biokg-builder
 pip install -e .
