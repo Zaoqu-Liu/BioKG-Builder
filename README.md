@@ -27,7 +27,7 @@ from biokg_builder import BioKGBuilder
 # Initialize BioKGBuilder
 builder = BioKGBuilder(
     email="your.email@example.com",        # Replace with your email
-    api_key="your-openai-api-key",         # Replace with your OpenAI API Key
+    api_key="your-api-key",         # Replace with your LLM API Key
     base_url="https://api.deepseek.com",   # Optional: custom API endpoint
     use_parallel=True                      # Enable parallel processing
 )
